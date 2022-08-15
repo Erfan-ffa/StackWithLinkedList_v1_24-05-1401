@@ -62,7 +62,7 @@ namespace StackWithLinkedList
             if (!IsEmpty())
             {
                 Node tempTop = top.prev;
-                top.next = null;
+                top = null;
                 top = tempTop;
             }
             else
